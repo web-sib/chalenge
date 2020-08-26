@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+body{
+	font-family: 'Ubuntu', sans-serif;
+}
+.bg-nav{
+	background-color: white;
+}
+.jumbotron-color{
+	background: linear-gradient(to right, rgba(91,134,229, .92),rgba(21,25,25,.92))
+}
+.jumbotron-section{
+	background-size: cover;
+	background: url('../img/doodle.jpg');
+	background-size: 600px;
+}
+.content-point{
+	background-color: white;
+	box-shadow: 0 3px 10px rgba(0, 0, 0, 0.151);
+	padding: 30px;
+	margin-top: -90px;
+	border-radius: 20px;
+}
+.avatar{
+	width:100px;
+	height: 100px;
+	border-top-left-radius: 50%;
+	border-top-right-radius: 50%;
+	position: absolute;
+	top: -50px;
+	left: calc(50% - 50px);
+}
+.btn-learn{
+	position: relative;
+	margin-bottom: 25px;
+}
